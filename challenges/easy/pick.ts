@@ -59,12 +59,3 @@ interface Expected2 {
   title: string
   completed: boolean
 }
-
-
-
-/* _____________ Further Steps _____________ */
-/*
-  > Share your solutions: https://tsch.js.org/4/answer
-  > View solutions: https://tsch.js.org/4/solutions
-  > More Challenges: https://tsch.js.org
-*/
