@@ -17,7 +17,6 @@ type Diff<O, O1> = {
     K extends keyof O ? O[K] : K extends keyof O1 ? O1[K] : never
 }
 
-
 /* _____________ Test Cases _____________ */
 import { Equal, Expect } from '@type-challenges/utils'
 
