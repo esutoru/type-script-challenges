@@ -30,7 +30,7 @@ type Mutable<T> = {-readonly [K in keyof T]: T[K]}
 
 
 /* _____________ Test Cases _____________ */
-import { Equal, Expect, ExpectFalse, NotEqual } from '@type-challenges/utils'
+import { Equal, Expect } from '@type-challenges/utils'
 
 interface Todo1 {
   title: string
